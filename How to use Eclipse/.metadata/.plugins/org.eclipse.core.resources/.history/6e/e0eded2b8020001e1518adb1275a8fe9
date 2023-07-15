@@ -1,0 +1,11 @@
+
+public class ReverseString {
+	public static void main(String[] args) {
+		System.out.println("dog");
+	}
+	
+	public static String reverse(String s) {
+		return s; 
+	}
+
+}

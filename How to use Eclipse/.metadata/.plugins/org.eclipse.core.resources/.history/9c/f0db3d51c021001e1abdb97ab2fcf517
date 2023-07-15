@@ -1,0 +1,7 @@
+
+public class FindDuplicates {
+	public static void main(String[] args) {
+		String sentence = "How many duplicates are there?";
+	}
+
+}

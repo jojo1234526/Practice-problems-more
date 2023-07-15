@@ -1,0 +1,10 @@
+
+public class HashMapAwesomeness {
+	public static void main(String[] args) {
+		int a=10;
+		String b = "hello";
+		int[] c = {1,2,3};
+		int d = 3;
+		int e = 88;
+	}
+}

@@ -1,0 +1,33 @@
+import java.util.Arrays;
+
+public class Pangram {
+	
+	public static void main(String[] args) {
+		String s = "The quick brown fox jumps over the lazy dog!";
+		
+		boolean[] mark = new boolean[26];
+		int index = 0;
+		
+		
+		for(int i=0; i < s.length(); i++) {
+			
+			char cur = s.charAt(i);
+			
+			if(cur >= 'A' && cur <= 'Z') {
+				index = cur - 'A';
+				
+			} else if(cur >= 'a' && cur <= 'z') {
+				index = cur - 'a';
+			}
+			mark[index]=true;
+		}
+		System.out.println(Arrays.toString(mark));
+		int count=0;
+		for(int i =0; i<mark.length; i++) {
+			System.out.println(mark[i]);
+			count++;
+		}
+		System.out.println(count);
+	}
+
+}

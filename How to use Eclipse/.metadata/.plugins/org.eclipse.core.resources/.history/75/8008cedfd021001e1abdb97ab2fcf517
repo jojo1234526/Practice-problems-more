@@ -1,0 +1,25 @@
+public class FindDuplicates {
+    public static void main(String[] args) {
+        String sentence = "How many duplicates are there?";
+        FindCharacter(sentence);
+        
+        String sentences = "How many duplicates are there?";
+        
+        for(int i =0; i<sentence.length(); i++) {
+        	System.out.println(sentence.charAt(i));
+        }
+    }
+    
+    public static void FindCharacter(String sentence) {
+        int[] charCounts = new int[256]; // Assuming ASCII characters
+        for(int i = 0; i < sentence.length(); i++) {
+            charCounts[sentence.charAt(i)]++;
+        }
+        
+        for(int i = 0; i < charCounts.length; i++) {
+            if(charCounts[i] > 1) {
+                System.out.println((char) i + ": " + charCounts[i]);
+            }
+        }
+    }
+}

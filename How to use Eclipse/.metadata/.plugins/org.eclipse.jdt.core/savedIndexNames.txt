@@ -1,0 +1,10 @@
+INDEX VERSION 1.132+/Users/a12108/How to use Eclipse/.metadata/.plugins/org.eclipse.jdt.core
+128066350.index
+3219223313.index
+3169344460.index
+808375702.index
+1865797976.index
+793669427.index
+1129177149.index
+2873549434.index
+3193546935.index

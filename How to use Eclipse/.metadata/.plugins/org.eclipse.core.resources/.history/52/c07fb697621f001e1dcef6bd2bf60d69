@@ -1,0 +1,20 @@
+
+public class Main {
+	public static void main(String[] args) {
+		Friend friend1 = new Friend("Stewie");
+		Friend friend2 = new Friend("Peter");
+		Friend friend3 = new Friend("Meg");
+		
+		System.out.println(Friend.numberOfFriends);
+		
+		Main BFF = new Main();
+		System.out.println(BFF.Friend(null));
+
+	}
+
+	private char[] Friend(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
